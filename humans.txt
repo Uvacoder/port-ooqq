@@ -1,0 +1,50 @@
+     ___
+ ___/ _ \___
+/ _ \___/ _ \___
+\___/ _ \___//_/
+    \___//_/
+
+________________________________________
+Last update - https://github.com/OOQQ/ooqq.me
+Language - English
+________________________________________
+
+OOQQ.me
+This website was handcrafted by OOQQ
+From Europe
+
+ooqq.me
+github.com/OOQQ
+________________________________________
+
+SPECIAL THANKS
+
+Mom
+Dad
+________________________________________
+
+TECHNOLOGY
+
+Linux Mint - Operating System
+https://linuxmint.com
+
+Windows 10 - The other operating system
+microsoft.com/windows
+
+VIM - Text editor
+vim.org/
+
+NEOVIM - The other text editor
+neovim.io/
+
+GitHub - Is how people build software
+github.com
+
+SVG - Image vectorization
+w3.org/Graphics/SVG/
+________________________________________
+
+SOUNDTRACK
+
+Jesper Kyd
+https://www.youtube.com/watch?v=oG5aG4mJLfc

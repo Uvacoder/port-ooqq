@@ -1,0 +1,64 @@
+﻿<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="author" content="OOQQ" />
+		<meta name="revised" content="Wednesday, Jul 28th, 2020, 10:58:50 am" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<title>Introducing Dark Mode - OOQQ</title>
+
+		<link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/minireset.css/0.0.2/minireset.min.css" integrity="sha512-uBLaY+6crwV4JAHILx0HWvYncrX7TXL770hqxly0ZsQ199v4lr2yNB2jiPMoxNajFPHSQnU80B1O8dJLujWZMg==" crossorigin="anonymous" as="style" onload="this.rel='stylesheet'" />
+		<base href="./">
+		<link rel="icon" type="image/svg+xml" href="../favicon.svg" type="image/x-icon" />
+		<link rel="alternate icon" href="../favicon.svg" type="image/x-icon" />
+		<link rel="stylesheet" href="../assets/style.css" type="text/css" media="all" />
+		<script defer src="../assets/scripts.min.js"></script>
+	</head>
+
+	<body>
+		<header name="top">
+			<h2><a href="../blog" title="Back to the blog archive" target="_self">&lt;&lt; rants</a></h2>
+			<h1>How I do the dark side <span class="emoji">🌃</span></h1>
+			<p class="date" data-uid="2020-07-28T10:58:50"><small>days ago</small></p>
+		</header>
+
+		<main>
+			<p>A typical <a href="https://www.reddit.com/r/css/comments/hy54p3/the_simplest_css_variable_dark_mode_theme/" target="_blank">random reddit article</a> pops once in a while, and gives you a chance to improve an existing design. This time, it was a dude claiming to create the most simplest dark theme changer, complete with localStorage and everything. And after a read I came to my own conclussions.</p>
+			<p>1. If you need the user to manually set the entire OS to dark theme, then you already lost.</p>
+			<p>2. If you place a manual theme changer on your page, you already disqualified your OS dark theme implementation.</p>
+			<p>Anyway, since my index site sports a <a href="20_07_22_realtimeMoonEmojis.html" target="_self">real time emoji moon phaser</a> on it, lets make the emoji be the dark theme changer:</p>
+
+			<pre>
+<span style="color: DodgerBlue;">document</span>.querySelector(<span style="color: Orange;">'.moonEmoji'</span>).addEventListener(<span style="color: Orange;">'mouseenter'</span>, <span class="hljs-function"><span style="font-weight: 700;">function</span> (<span class="hljs-params">e</span>) </span>{ <span class="hljs-comment" style="color: Gray;">//mouse over button</span>
+  <span style="color: DodgerBlue;">document</span>.querySelector(<span style="color: Orange;">'.moonEmoji'</span>).style.cursor = <span style="color: Orange;">'pointer'</span>;
+    });
+
+    <span style="font-weight: 700;">if</span> (localStorage.getItem(<span style="color: Orange;">'darkTheme'</span>)) { <span class="hljs-comment" style="color: Gray;">//everything ok, change the emoji</span>
+      setDarkEmoji();
+    } <span style="font-weight: 700;">else</span> {
+      setLightEmoji();
+    }
+  }
+}			</pre>
+
+			<p>And since we need the behaviour to propagate for the entire site, the only way to store the state without a database is using something like <i>localStorage</i> to store it. Well played <a href="https://lukelowrey.com/css-variable-theme-switcher/" target="_blank">Luke Lowrey!.</a></p>
+
+			<p>Now you may be wondering: Why didn't you implemented the css specific dark theme listener? Well, it's pretty much because I developed the entire theme changer and I'd like people to use it, plain and simple. But it's true it's most convenient to get dark by default.</p>
+			
+			<p><i>Oh well</i> maybe later...</p>
+
+			<p><a href="https://github.com/OOQQ/OOQQ.github.io/blob/master/assets/scripts.js" target="_blank">Download from Github.</a></p>
+		</main>
+
+		<footer>
+			<ul class="footer">
+				<li><a href="../" title="Back to the index" target="_self">index</a></li>
+				<li><a href="../about.html" title="About mM" target="_self">about</a></li>
+				<li><a href="../blob" title="Back to the arts archive" target="_self">arts++</a></li>
+				<li><a href="../blog" title="Back to the rants archive" target="_self">rants++</a></li>
+				<li><a href="20_07_28_darkTheme.html#top" title="Back to top" target="_self">&uuarr; back to top</a></li>
+			</ul>
+		</footer>
+	</body>
+</html>

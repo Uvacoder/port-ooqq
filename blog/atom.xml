@@ -1,0 +1,1181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>OOQQ Rants</title>
+<updated>2020-08-09T23:16:22-04:00</updated>
+<link rel="self" type="application/atom+xml" href="https://ooqq.me/blog/atom.xml"/>
+<link rel="alternate" type="text/html" href="https://ooqq.me/blog"/>
+<id>https://ooqq.me/blog</id>
+
+<entry>
+<author><name>OOQQ</name></author>
+<title>Small update to site</title>
+<updated>2020-08-08T20:00:00-04:00</updated>
+<link rel="alternate" type="text/html" href="https://wozniak.ca/blog/2020/08/09/1/index.html"/>
+<id>https://wozniak.ca/blog/2020/08/09/1/index.html</id>
+<content type="html">
+<![CDATA[<div class="timestamp">
+<p>
+August 09, 2020
+</p>
+
+</div>
+
+<p>
+I've done a little work behind the scenes to make my life easier with
+the site, namely I dropped the RSS feed and I'm only supporting Atom.
+Behind the scenes I've made it better to work with drafts.  I also
+restyled things ever so slightly and changed the URL scheme a bit.
+(Yes, old URLs should redirect.)  The hosting provider has changed and
+so has the web server.
+</p>
+
+<p>
+I expect the Gopher site will go away soon.  I'll replace it with
+something else but I haven't quite figured out what that is yet.
+</p>
+]]>
+</content>
+</entry>
+<entry>
+<author><name>Geoff Wozniak</name></author>
+<title>Adventures in account deletion</title>
+<updated>2019-01-20T19:27:00-05:00</updated>
+<link rel="alternate" type="text/html" href="https://wozniak.ca/blog/2019/01/20/1/index.html"/>
+<id>https://wozniak.ca/blog/2019/01/20/1/index.html</id>
+<content type="html">
+<![CDATA[<p>
+For the past couple of years I’ve been cleaning up my digital presence a bit by deleting accounts with services or sites I no longer use.  The list is pretty long.  I’ve been hanging out on the Internet now for over 20 years and have been signing up for things since I started (my Slashdot user id is less than 5 digits).  My list of known accounts, both deleted and active, is about 200.  There are probably more since I didn’t start keeping track until about 2007.
+</p>
+
+<p>
+The act of deleting happens in fits and spurts, but there is one
+unsurprising constant: deletion of accounts is, in almost all cases, a
+lot more work than creating them.
+</p>
+
+<p>
+At this point I have deleted, or attempted to delete, nearly 120 accounts.  Here is a list of some observations about the process as I’ve
+encountered it.
+</p>
+
+<ul class="org-ul">
+<li>Sites that offer an option to close or delete an account directly have not been as common as I would like.  The ability to do this usually resides with more recent services.  You have to work through a bunch of confirmation dialogues, but that’s understandable.  My guess it that I’ve only been able to delete somewhere between 20-40% of the accounts this way.  (If it’s more than that, it sure doesn’t <i>feel</i> like it.)  It’s a blessed relief when this option exists.</li>
+<li>My Firefox account was probably the simplest to delete.  I have nothing against them, but I don’t need the account, so I got rid of it.  Kudos for a simple and obvious process.</li>
+<li>Any account that is associated with payment or credit cards is probably going to require you to run through the customer service gauntlet.  More often than not there is no option in your account preferences to close the account and you end up either in some silly pop-up chat window getting nothing but canned responses, or you end up getting emails with stuff like “a Customer Service Representative will respond to your email within 24 business hours”.  It’s clearly meant to be a barrier, and it is.</li>
+<li>Corollary to the previous point: these sites will often have no information on how to delete an account in their customer help pages.</li>
+<li>Some sites don’t even ask to confirm the account deletion.  A few times I’ve sent a message via a “Contact Us” form and gotten a message back that says, “Your account has been deleted.”  Good thing it was me making the request.</li>
+<li>Amazon made me go through an online chat, wherein the representative apologized for not being able to do anything then sent me a link to another page that blared grave warnings, upon which I could actually delete the account.  The chats were pretty terrible because it was clear the <del>reps</del> bots were using canned responses they didn’t care about.  This same sequence was repeated for both the .com and .ca versions of the account.</li>
+<li>Don’t sign up for an IBM account if you don’t like chasing your tail.  It was nothing but dark patterns there.  (That account was a vestige of the time they were my employer and I tried out their web services for an experiment that did not go anywhere.  Here’s hoping the $0.00 invoices stop coming.)</li>
+<li>Edmodo (one of those accounts forced on me by circumstance) wouldn’t let me delete the account unless my course instructor approved it.  Of course, by the time I was doing this, the course had ended about four years prior.  I think it was shortly after they leaked <a href="https://haveibeenpwned.com/PwnedWebsites">77 million records</a> that I was able to delete the account without supervision.</li>
+<li>Shout out to Apress for being unresponsive jerks.</li>
+<li>Fuck Facebook, the ultimate purveyors of assholery.</li>
+<li>Forums are probably the least enjoyable of all.  phpBB and vBulletin are everywhere and come with an interface almost as friendly as z/OS.  Deleting an account usually means getting in touch with an administrator, which may or may not be done via email.  It’s clear the concept of getting rid of an account wasn’t even considered in the design of these things.</li>
+</ul>
+
+<p>
+As I audited my accounts I realized just how often I had to sign up for a site to do something benign, like purchase an album or make a donation.  Most of my accounts are throwaway junk.  A lot of them were with sites that are now defunct.  My habit these days is to delete the account as soon as I accomplish whatever it is I need to do.  (PayPal holds the record for shortest account so far: about a minute.  The deletion process is pretty smooth, actually.)
+</p>
+
+<p>
+You probably have way more accounts than you need.  Regrettably, if you intend to go through your accounts and delete the detrius, expect to spend a lot of time on it.
+</p>
+
+<div class="timestamp">
+<p>
+January 20, 2019
+</p>
+
+</div>
+]]>
+</content>
+</entry>
+<entry>
+<author><name>Geoff Wozniak</name></author>
+<title>Timestamps, GNU autotools, and repositories</title>
+<updated>2019-01-10T23:07:00-05:00</updated>
+<link rel="alternate" type="text/html" href="https://wozniak.ca/blog/2019/01/10/1/index.html"/>
+<id>https://wozniak.ca/blog/2019/01/10/1/index.html</id>
+<content type="html">
+<![CDATA[<p>
+If you include the distributed source for software that uses the GNU autotools in a source repository, beware of timestamps on the files when you checkout the source.
+</p>
+
+<p>
+Consider, for example, the source distribution of the <a href="https://www.mpfr.org/">GNU MPFR library</a>.
+The source distribution includes the files <code>aclocal.m4</code> and <code>Makefile.in</code>.
+In the autotools world, <code>Makefile.in</code> is dependent on <code>aclocal.m4</code>.
+When you run <code>configure</code>, the <code>Makefile</code> is derived from <code>Makefile.in</code>.
+</p>
+
+<p>
+This all fine and not surprising.
+What will be surprising is that when you run <code>make</code>, you may immediately get an error like this.
+</p>
+
+<pre class="example">
+&gt; gmake
+/home/woz/tmp/testing/mpfr/missing: automake-1.15: not found
+WARNING: 'automake-1.15' is missing on your system.
+         You should only need it if you modified 'Makefile.am' or
+         'configure.ac' or m4 files included by 'configure.ac'.
+         The 'automake' program is part of the GNU Automake package:
+         &lt;http://www.gnu.org/software/automake&gt;
+         It also requires GNU Autoconf, GNU m4 and Perl in order to run:
+         &lt;http://www.gnu.org/software/autoconf&gt;
+         &lt;http://www.gnu.org/software/m4/&gt;
+         &lt;http://www.perl.org/&gt;
+gmake: *** [Makefile:404: ../mpfr/Makefile.in] Error 1
+</pre>
+
+<p>
+The distribution may create a <code>Makefile</code> whose first course of action is to check that the build files are up-to-date.
+This means checking files such as <code>aclocal.m4</code> and <code>Makefile.in</code>.
+If the timestamps on those files are such that <code>Makefile.in</code> is ever-so-slightly older than <code>aclocal.m4</code>, for example, the build will attempt to regenerate <code>Makefile.in</code>, which requires automake to be installed.
+It may even complain about having a specific version, such as in the example above.
+Perhaps more insidiously, if you <i>do</i> have the correct version installed, it will regenerate the file in the source directory.
+You may be really confused to see a modified <code>Makefile.in</code> (or <code>.info</code> files, or perhaps machine descriptions) after doing a clean checkout and build.
+(It’s also bad because, technically, the build is based on different source than what is in the repository.)
+</p>
+
+<p>
+I’ve run into this where the distributed source for libraries such as MPFR are included in large source repositories.
+When cloning them, you never know what order the files will be written and when.
+If you try to do this with a small repository, there’s a very good chance the timestamps of the files will be the same.
+</p>
+
+<p>
+This likely won’t happen when the source is unpacked from the distribution because TAR files preserve the timestamps.
+</p>
+
+<p>
+If there’s an option to <code>configure</code> to prevent this, such as <code>--disable-maintainer-mode</code>, you may want to use that.
+(Why would “maintainer mode” be the default in the first place?)
+You could also <code>touch</code> the troublesome files in the correct order, although that will probably bring about its own maintenance headaches.
+</p>
+
+<div class="timestamp">
+<p>
+January 10, 2019
+</p>
+
+</div>
+]]>
+</content>
+</entry>
+<entry>
+<author><name>Geoff Wozniak</name></author>
+<title>Book review: Retro debugging</title>
+<updated>2019-01-04T20:00:00-05:00</updated>
+<link rel="alternate" type="text/html" href="https://wozniak.ca/blog/2019/01/04/1/index.html"/>
+<id>https://wozniak.ca/blog/2019/01/04/1/index.html</id>
+<content type="html">
+<![CDATA[<div class="authornote">
+<p>
+This is the fifth in a series of reviews of debugging books.
+</p>
+
+</div>
+
+<ul class="org-ul">
+<li><i>The Frozen Keyboard: Living With Bad Software</i> (Boris Beizer, TAB Books, 275 pp., 1988)</li>
+<li><i>Secrets of Software Debugging</i> (Truck Smith, TAB Books, 276 pp., 1984)</li>
+<li><i>How to Debug Your Personal Computer</i> (Jim Huffman and Robert C. Bruce, Reston Publishing, 157 pp., 1980)</li>
+<li><i>Software Debugging for Microcomputers</i> (Robert C. Bruce, Reston Publishing, 351 pp., 1980)</li>
+<li><i>Program Style, Design, Efficiency, Debugging, and Testing, 2nd Ed.</i> (Dennie Van Tassel, Prentice-Hall, 323 pp., 1978)</li>
+<li><i>Program Debugging</i> (A.R. Brown and W.A. Sampson, American Elsevier Computer, 166 pp., 1973)</li>
+<li><i>Debugging Techniques in Large Systems</i> (edited by Randall Rustin, Prentice-Hall, 148 pp., 1971)</li>
+</ul>
+
+<p>
+Part of the reason I started this series of book reviews was to get a feel for how approaches to debugging have changed over the years.
+Similarly, I’m interested in seeing what has stayed the same, perhaps parading around in different guises.
+</p>
+
+<p>
+To that end, I collected some debugging books that were published before 1990.
+I used the following methodology, that is totally and completely based on rigorous techniques practised in academic settings.
+</p>
+
+<ol class="org-ol">
+<li>Search for books published before 1990 with “debug” in the title.</li>
+<li>If the combination of title, cover, and author seemed interesting&#x2014;and the price was not ridiculous&#x2014;obtain a copy and read it.</li>
+</ol>
+
+<p>
+There isn’t any theme to the content aside from that, save for Beizer’s book, which was a recommendation.
+</p>
+
+<p>
+As it happens, the books fall into two different computing eras: mainframe computing and personal/home computing.
+These also happen to line up with the publication dates: 1970s for mainframe, 1980s for personal.
+You won’t glean much about debugging for the current day and age if you read them, but you will find some enlightening contrasts and parallels.
+</p>
+
+<p>
+(A note about Beizer’s book: it’s really a general book for the home computer user and not a book about the process of software development or debugging.
+It should not be considered part of the home computing books.
+Although it does discuss how software is developed, particularly how it is (or should be) tested, it is more about the state of software and computers at the time.
+I’ve included it in this review because it is both a good book and helps provide context for the era.)
+</p>
+
+<p>
+Aside from the books’ specific content&#x2014;which is amusingly out of date in almost all respects&#x2014;the primary difference they demonstrate from today’s world is <i>speed</i>.
+Every single aspect of development comes across as slower.
+Making a change in the code and just running it, let alone deploying it, could take on the order of days.
+Brown and Sampson’s book describes a case study, run in 1971, that contains the specification for a program that today would be, at best, an assignment for a first year student.
+Competent developers would probably be able to write it in under a day, with unit tests.
+In the case study it takes two professional programmers, each with 6-7 years experience, nearly two weeks of effort to get a working program.
+</p>
+
+<p>
+As ludicrous as that may seem, a big reason for it is the lack of machine time.
+The case study contains a detailed program development log for one of the programmers.
+That programmer logged 13.75 days of development time and only 37 <i>minutes</i> of machine time.
+It takes him days to get to the point where he even starts writing code, which in all likelihood ends up on cards or some other tedious, error-prone input mechanism.
+All the mainframe era books allude to the fact that CPU time cost money and that “the computer” is often used for many other things.
+In other words, developers almost never had a computer to work on and initially wrote most of the code at their desk on paper.
+There were certainly terminals and time sharing operating systems in the 1970s so it is not accurate to assume that all programmers were using punch cards to submit programs in batch to the computer.
+Nevertheless, there was significantly less computing power and storage space than today and it was much more expensive.
+Hence, the mainframe era books consistently push the notion that you should aim to “get it right the first time” so as to avoid wasting CPU cycles.
+</p>
+
+<p>
+The books for home computing don’t go to this extent for the obvious reason that you had a computer right in front of you, although it would be a stretch to say that development was a speedy affair.
+Truck Smith’s book contains the programming journals he recorded while writing three different programs on an Apple II.
+One of them is for a simple <code>diff</code>-like program written in BASIC that ends up being a little under 300 lines, including comments.
+Here he is reflecting on the effort.
+</p>
+<blockquote>
+<p>
+Reading the blow by blow descriptions [about 50 pages worth] gives the impression that it took a long time to write this program and get it running.
+Actually it took me about a week, working nights (but not every night of the week).
+</p>
+</blockquote>
+<p>
+The home computing books are devoid of discussion on software tools for development and debugging, including something as rudimentary as a text editor.
+They assume the use of the BASIC interpreter and primitive (that is, non-multitasking) operating system that comes with the computer to input and manage a program.
+Smith also has journals for a Pascal and assembly language program, but there is no hint as to how to go about actually using those languages on the computer.
+The assumption is that the user has the knowledge and can obtain the necessary software to use a different programming language.
+Bruce’s books centre entirely on the limited capabilities of BASIC on the Sol 20 microcomputer.
+The home computing world comes with more immediate computing power and very little in the way of taking advantage of it.
+</p>
+
+<p>
+This lack of speed goes hand-in-hand with debugging being talked about as a distinct stage of software development.
+It is almost exclusively portrayed as an offline activity.
+This is explicitly stated in the mainframe books.
+It is also true in the home computing books, although the definition shifts slightly.
+</p>
+
+<p>
+When you look at the debugging tools and techniques the books describe there is one item that rules them all: printed output.
+Nearly everything is geared toward making program listings or diagnostic output more efficient and useful.
+Like most things in these books, this will strike readers in this day and age as ridiculous.
+Still, it is entirely reasonable given the conditions of the time.
+Recall that in the mainframe domain CPU time was precious: running automated tests or using tools to query output (such as something like <code>grep</code>) may have been difficult or impossible.
+In the world of home computing merely inspecting your program on a monitor, without obtaining extra software, was likely a chore.
+There was very limited memory (be it disk or RAM) for holding output so even if there was a pager program, only so much could be stored.
+The cheapest, most abundant source of “memory” for storing output for the purposes of inspection was paper.
+</p>
+
+<p>
+Given that paper is characterized as the preferred method for debugging it’s not surprising that debugging is talked about as something separate from programming.
+This is probably the starkest difference from today’s methods, where program output is easily stored and examined making debugging practically synonymous with development.
+Bruce talks about the “program development and shakedown” stages.
+Van Tassel says that one should plan for debugging to take four times as long as any of planning, writing, and testing.
+Brown and Sampson’s book starts out decrying the fact that so much time is spent on debugging.
+Practically every paper in the collection edited by Rustin assumes debugging is independent from the act of programming.
+This is not surprising: when output is removed from the runtime environment, the development process feels more delineated and less fluid.
+</p>
+
+<p>
+The debugging techniques, however, are not markedly different.
+They’re just smaller in scope to the point where in modern environments we don’t really think of them as techniques.
+Everything that is prescribed for instrumenting a program to tease out information about its state is still applicable, although it may not be necessary.
+</p>
+
+<p>
+The first is desk checking, that is, reading the program listing, possibly making a flow chart, and running through examples manually.
+Exactly when this step is recommended depends on whether you are reading the mainframe books (before you <i>write</i> the code) or the home computing books (after you <i>run</i> the code).
+The need to make a flow chart is pretty rare these days since we can quickly navigate code online to understand its control flow.
+Due to an abundance of computing power and storage space it’s also easy to execute example code and store it (automated testing, anyone?).
+Desk checking is a form of last resort today and a primary technique of the past.
+</p>
+
+<p>
+The other technique, talked about at great length, is careful and judicious placement of print statements.
+When it comes to tools used in the online computing environment, print statements are the only one mentioned in the home computing books.
+There is no online debugger: no breakpoints, no program halting, and no memory inspection.
+There are also no system tools since the whole computer is devoted to running the program you’re writing.
+The mainframe books do talk about system-level monitors and online debugging, but it is done in a way that suggests it is an exotic luxury.
+It’s more or less “use ’em if you got ’em.”
+Any such tools are described as system specific, so a treatment of it would be out of place in a book about general debugging.
+The use of memory dumps is talked about by the mainframe books, saying that they are hard to work with (you probably wouldn’t examine them online) and that you’ll probably want to avoid them.
+In the end, the only reliable technique that you can use anywhere is a well-placed print statement.
+The advice on how to place them is largely the same as today, with more attention paid to avoiding extensive output since this would use a lot of paper.
+</p>
+
+<p>
+As mentioned, the mainframe books see debugging as a stage of software development.
+The home computing books, by contrast, barely discuss the notion of process at all.
+Bruce’s books completely ignore how a program got written and dive into how you can fix an existing one; any programs provided come into existence through a contrived narrative for the sake of presentation.
+Smith’s book spends limited space on any development formalities and buries all the advice in enjoyable, haphazard experience reports.
+Debugging BASIC programs is something that gets done in fast edit-run cycles, the caveat being that the paucity of features in the environment makes it less appealing than it sounds.
+This is probably why the home computing books push offline debugging so much.
+</p>
+
+<p>
+The lack of rigour in the home computing books carries over into testing.
+While testing is not the same as debugging, they are closely related and are frequently discussed together.
+So it’s a bit surprising that there is no serious mention of it in the home computing book set.
+Smith does touch on it, but doesn’t talk much about how to test; Bruce and Huffman completely ignore the subject.
+It’s embarrassing that Beizer provides more insight on how to test software, even superficially, than books directly aimed at programmers.
+Even more shameful, Beizer goes into some detail&#x2014;with wonderful, witty diatribes&#x2014;and demonstrates a deep knowledge of the subject.
+The lack of testing discussion in the home computing books relegates them to the realm of amateurs.
+</p>
+
+<p>
+The mainframe books, on the other hand, are serious about testing and how it acts as a “debugging aid”.
+There is a clear emphasis on isolating parts of the program and testing them on a regular basis, especially after a change has been made.
+The practice of “testing units” or testing modules is mentioned often.
+This process is very drawn out in the description from Brown and Sampson as it involves multiple people: those who write the program, those who type it, and those who run it.
+Van Tassel says that using automated testing is the only way to handle large code bases and that storing test input so it can be reused is a necessity.
+Keeping a log of tests and test results is recommended if you desk check a routine.
+Testing plays a key role in managing how one debugs a program.
+(Included in the testing discussions is a lot of hopefulness on one day proving programs correct, complete with a healthy dose of skepticism and no serious expectation of it happening soon.)
+</p>
+
+<p>
+Again, what differs from today is the scope.
+For example, merely checking types at module/function boundaries, let alone within a function, is referred to as “runtime overhead” that may require multiple compilers since optimizing compilers probably wouldn’t verify types.
+There is an emphasis on getting the compiler to check as much as possible if the resources are available (such as having a compiler that checks those things in the first place!).
+As usual this is because the resources to run tests are constrained and compilation itself took a significant amount of time.
+Descriptions of what is tested by the programmer is generally limited to a single module, which is something on the order of implementing a few equations or file operations.
+</p>
+
+<p>
+All in all, debugging on mainframes in the 1970s and home computers in the early 1980s comes across a tedious exercise.
+In the mainframe books you can practically feel the authors pining for more power.
+There is all this potential and nothing to realize it.
+It’s mostly today’s development process played out in super-slow motion, but at least it is methodical.
+The home computing books, on the other hand, have a severe lack of discipline.
+This is probably in large part due to the use of BASIC as the grounding point, although Truck Smith tries hard to branch out a little.
+</p>
+
+<p>
+This collection of books shows that, in the past, a lot more attention was paid to things that we now mostly ignore.
+And those things are found in the periods of time that emerge from having to wait for anything to happen.
+There is a clear advantage to having a wealth of computing power available when it comes to debugging.
+Being able to capture gigabytes of output from any number of tools and analyze it in short order, all on the same machine on which the program is running, is significantly better than worrying about whether a print statement will send a hundred pages of output to the line printer.
+The introspection tools that our current execution environments offer is a realization of what was yearned for in the mainframe books and we get to reap the rewards.
+What is revelatory is the seeming lack of formality in home computing.
+It’s as if everyone was so enamoured by the fact there was a computer in their home that they forgot about the computers at work.
+The complaints in Beizer’s book may very well be attributed to the lessons found in Smith, Bruce and Huffman’s work.
+There isn’t enough in the books to explain this discrepancy in thoroughness, but there’s certainly something to explore.
+</p>
+
+<p>
+One thing is clear: the more things change the more they stay the same, they just get faster.
+</p>
+
+<div id="outline-container-orgd0d8fd6" class="outline-2">
+<h2 id="orgd0d8fd6">Capsule reviews</h2>
+<div class="outline-text-2" id="text-orgd0d8fd6">
+<p>
+For those interested in the specific books I’ve included short reviews.
+If you’re really keen on a book and want to read it be forewarned: unless you want to study the historical context, you won’t learn much from the actual content, except in one case.
+Appreciating the content requires some research into, and possibly experience with, the actual computing environments referenced in the books.
+</p>
+
+<dl class="org-dl">
+<dt><i>The Frozen Keyboard</i></dt><dd>Five stars.  Beizer is a pleasure to read.  His clear prose, pointed metaphors, and backhanded compliments elegantly excoriate the tech industry for its hyped promises and general lack of empathy for the user.  A lot of what he says&#x2014;perhaps aside from the buying guide and the extensive backup procedure using a printer&#x2014;still applies.  He’s amusingly colourful: when talking about programming and why bugs exist, his description starts with “Programming is a bitch.”  If I were teaching software testing or usability, I’d put this book on the supplemental reading list.  Recommended for discussion over drinks.  (Shout out to John Regehr for pointing me to Beizer’s work.)</dd>
+<dt><i>Secrets of Software Debugging</i></dt><dd>This book is mentioned in another book I reviewed (<i>Debugging by Thinking</i>, by Metzger) where it is described as targeting “an obsolete language/environment and is of historical interest only.”  The hell with that.  This book is actually fun and somewhat insightful, despite its dearth of rigour.  Truck Smith is clearly a programmer writing for aspiring programmers.  The content is thin and there’s a lot of grasping at formality, but the discussion about the mindset and attitude you need to tackle tough debugging problems still resonates.  There’s also three long chapters that are his journals from developing three different programs (one of which is his first Pascal program) that helps you appreciate what went into developing on home computers.  As an added bonus, the edition I have comes with a <a href="sosd-cover.jpg">cover</a> whose genesis demands an explanation.</dd>
+<dt><i>How to Debug Your Personal Computer</i></dt><dd>This is a condensed version of <i>Software Debugging for Microcomputers</i> containing select chapters from it, with an extra chapter devoted to describing hardware of the time.  The hardware chapter is dull and probably wouldn’t help if you had to debug hardware.  The rest is the same as the original book, save for the fact it doesn’t tell you what personal computer the code is for. (It’s a Sol 20 microcomputer.)</dd>
+<dt><i>Software Debugging for Microcomputers</i></dt><dd>Review in less than ten words: 300+ pages of PRINT statement examples.  The programs are all BASIC, the designs are questionable, and the discussion drags more than <a href="https://en.wikipedia.org/wiki/Empire_(1964_film)">experimental avant-garde cinema</a>.  Each concept could be explained in a few pages.  Instead, they are weaved into the development of medium sized programs that come with grandiose descriptions and pedestrian implementations.  Furthermore, the names of known, studied concepts at the time are given strange names: “block debugging” (subroutines), “forcing” (testing edge cases), “snapshots” (subroutines, again), just to name a few.  I pity anyone who learned from this book.  (The same goes for its condensed cousin mentioned above.)</dd>
+<dt><i>Program Style, Design, Efficiency, Debugging, and Testing</i></dt><dd>Van Tassel’s book was probably a good one to have on your shelf if you were a professional programmer or a student of programming in the late 1970s and into the 1980s.  Topics germane to programming at the time are presented seriously and with care.  By now all the advice has been superseded or obsoleted, but you won’t be guided in the wrong direction by reading it.  There are lots of programming exercises provided that would still be enjoyable to tackle.  Some descriptions are strange and dated, feeling out of place in a modern text.  And through an incredible coincidence, I found a passage plagiarized from <i>Program Debugging</i>, a book he does at least reference.</dd>
+<dt><i>Program Debugging</i></dt><dd>A strange little book that describes a formal approach to debugging that the authors call “The Method”.  This method is based on a problem solving technique used by managers and is this: study the specification, look for the differences from it, hypothesize why they exist, look at the program to determine if you’re correct, and verify that you are correct.  It’s like reading a business book that claims scientific management is why science is so successful.  What <i>is</i> interesting is the case study of using The Method in a real programming environment.  It’s well documented and fascinating to read.  There is also this sexist passage on page 37 that Van Tassel rips off: “&#x2026;and assume that his program has to survive all the sabotage attempts of cross-eyed punch girls, cretinous data control clerks, and idiotic operators.”  Van Tassel (page 240) excises the sexism and shifts the insult: “A robust program should be able to survive cross-eyed keypunchers, cretinous data control clerks, and retarded operators.”</dd>
+<dt><i>Debugging Techniques in Large Systems</i></dt><dd>This is a collection of papers and talk summaries from a symposium held in 1970.  It’s also the earliest book about debugging that I could obtain.  It mostly provides historical context, making it clear that interactive debugging was a good idea but difficult to pull off given the lack of resources and diversity of hardware at the time.  There is a fair bit of discussion of using the compiler to prevent bugs, things like typographical errors and basic type checking.  A lot of what is talked about here is taken for granted today.  It did provide a view into the world of programming in very limited environments.  I also learned about the unfortunately named debugging system <a href="https://nyuscholars.nyu.edu/en/publications/debugging-system-aids">AIDS</a>.</dd>
+</dl>
+
+<div class="authornote">
+<p>
+If you know of some home computing books from the microcomputer era that talk about program development or debugging, or you know of popular references for programming on home computers in the early to mid-1980s, I’d appreciate an email pointing me to them.
+</p>
+
+</div>
+
+<div class="timestamp">
+<p>
+January  4, 2019
+</p>
+
+</div>
+</div>
+</div>
+]]>
+</content>
+</entry>
+<entry>
+<author><name>Geoff Wozniak</name></author>
+<title>Massacring C Pointers</title>
+<updated>2018-06-25T07:42:00-04:00</updated>
+<link rel="alternate" type="text/html" href="https://wozniak.ca/blog/2018/06/25/1/index.html"/>
+<id>https://wozniak.ca/blog/2018/06/25/1/index.html</id>
+<content type="html">
+<![CDATA[<p>
+I'm taking a break from debugging books to talk about a calamitous shitshow of textbook writing: <i>Mastering C Pointers: Tools for Programming Power</i>, by Robert J. Traister.
+</p>
+
+<p>
+I learned of the book through a <a href="https://www.youtube.com/watch?v=8SUkrR7ZfTA">talk</a> by Brian Kernighan where he refers to the book as probably “the worst C programming textbook ever written.”<sup><a id="fnr.1" class="footref" href="#fn.1">1</a></sup>
+He doesn't name it but <a href="https://twitter.com/johnregehr/status/1003411102791692288">with some help</a> I was able to track down his obliquely accurate reference.
+</p>
+
+<p>
+This book has become my <a href="https://www.urbandictionary.com/define.php?term=white%20whale">white whale</a>.
+Since I started reading debugging books, and especially now that I'm digging through older ones, I find bits of advice that simply don't work today.
+While some of it could be construed as useless or idiotic, I've always found the authors come from a position of earnestness, attempting to draw the best conclusions based on decent principles and what they knew at the time they wrote it.
+In some cases they may not have known much, but they're honestly and humbly trying to impart some wisdom.
+</p>
+
+<p>
+When Kernighan put up the following example, I saw what seemed to be the opposite of that.
+</p>
+
+<pre class="example">
+char *combine(s, t)
+char *s, *t;
+{
+
+      int x, y;
+      char r[100];
+
+      strcpy(r, s);
+      y = strlen(r);
+      for (x = y; *t != '\0'; ++x)
+           r[x] = *t++;
+
+      r[x] = '\0';
+
+      return(r);
+
+}
+</pre>
+
+<p>
+This program (formatting preserved) is taken from the first edition of the book (p.146).
+It's horrific (Kernighan calls it “malpractice”).
+It does not exhibit the genuineness I have seen with, say, books from the late 1970s on how to debug BASIC programs.
+I didn't know what it was.
+Deceit?
+Laziness?
+Unremitting ignorance?
+What is the mindset of someone who writes this, presumably thinking it's a good idea?
+Can the whole book be that bad?
+Kernighan said it was.
+I had to know.
+</p>
+
+<p>
+The book has two editions: the first was published in 1990, the second in 1993.
+The fact that there are two editions piqued my curiosity even more.
+It sold enough to make another version?
+Is that horrible example corrected?
+I obtained a copy of each and read them.
+</p>
+
+<p>
+Reviewing the book is pointless.
+Kernighan was right: it's garbage.
+And the second edition only makes things worse.
+Teaching from either one would be a breach of ethics.
+If you follow Traister’s coding practices, even adjusted for today's standards, you are <i>guaranteed</i> to create defects and vicious, latent bugs.
+A subtly pernicious aspect of the book is the casual tone of the writing.
+It’s informal enough that if you don’t really know much about C what he says sort of makes sense, despite the sloppy terminology and mixed, inaccurate metaphors.
+</p>
+
+<p>
+Any trained programmer will recognize the lessons as worthless.
+His terminology is all over the map and typically inaccurate, if not plainly wrong.
+Expressions “return a value.”
+Values are “handed” into locations.
+Constants are “written directly into the program.”
+A union is a “specialized pointer.”
+The terminology isn’t even consistent.
+Micro-optimizations are stressed at all times, and program efficiency is valued over comprehension.
+He can’t even define a pointer correctly: “A pointer is a special variable that returns the address of a memory location.”
+It does not take long to realize Traister has no idea what he’s talking about.
+</p>
+
+<p>
+Although I’m not going to go over the content (that would take far too long since there’s nothing redeeming there), I did take extensive notes.
+You can <a href="notes.html">read them</a>, if you are so inclined.
+</p>
+
+<p>
+I must, however, take a moment to single out the code.
+It is universally bad and much of it is simply wrong.
+(Imagine trying to learn programming principles from a book that contains a large number of programs that don’t even compile.)
+I’ve <a href="code.html">transcribed</a> some of the programs and annotated them with comments so that you can get a taste of how inept Traister is as a C programmer.
+One thing to keep in mind (both for the programs and the notes) is that C89/C90 was new at the time and that the code was written on (and for) MS-DOS systems of the late 1980s/early 1990s.
+Things were a bit different then.
+</p>
+
+<p>
+Enough about the material.
+I want to explore the question of how something so wrong even got written.  It’s not that everything in the book is wrong, but it feels like when it’s right, it’s right by accident.
+</p>
+
+<p>
+Traister has <a href="https://www.amazon.com/Robert-J.-Traister/e/B001H6UPHY/ref=sr_ntt_srch_lnk_1?qid=1529540256&amp;sr=1-1">written</a> other books, some about electronics and some about programming, one called <i>Going from BASIC to C</i>.
+In <i>Mastering C Pointers</i>, he talks about a product he created called CBREEZE that converts BASIC code to C.
+Throughout the book he makes passing, roundabout references to BASIC and uses terminology that suggests he’s written a lot of BASIC code.
+For example, there is a whole chapter on using pointers to access memory, where reading and writing memory is instead called “peeking” and “poking”, based on the PEEK and POKE instructions in BASIC.
+He also says that it took him a couple of tries to learn C coming from BASIC.
+In short, I’m convinced he’s knowledgeable about BASIC and has worked on writing software for small, electronic devices.
+</p>
+
+<p>
+Why is this important?
+As I read the book (and if you read my notes, you know where this is going) I started to notice something in the wording and tone.
+The further I progressed the more I became convinced of it, and I think it explains how he managed to mangle the explanation of C pointers so badly.
+</p>
+
+<p>
+I don’t think he understands the call stack.
+</p>
+
+<p>
+My argument for this interpretation requires a little knowledge of BASIC and embedded devices.
+</p>
+
+<p>
+With BASIC, the key thing to know about most implementations at the time is that there were no functions and no scope aside from the global scope.<sup><a id="fnr.2" class="footref" href="#fn.2">2</a></sup>
+The closest thing to a function in BASIC is the GOSUB command.
+The GOSUB command jumps to a line and executes code until it gets to a RETURN statement, where control is transferred back to the line following the GOSUB command.
+Within a GOSUB you can jump somewhere else with another GOSUB.
+The control follows a stack principle, but no arguments are passed.
+GOSUB routines are a way to factor out common code, but that common code has to work on global variables.
+(And yes, it’s as terrible as it sounds.)
+</p>
+
+<p>
+Now, consider the case of simple electronic devices.
+Even today some embedded devices, usually programmed using C, do not have a call stack that dynamically allocates space for automatic variables.
+There simply isn’t enough memory for it.
+Instead, the compiler lays out memory such that each function’s local variables have fixed memory addresses (a “compiled stack” model).
+The only stack you have is for return addresses and it is probably handled in hardware.
+</p>
+
+<p>
+Suppose you’re used to writing BASIC for small memory electronic devices and you learn about C.
+You read about pointers and realize something: it’s possible to write a subroutine that can change variables <i>without knowing their names</i>.
+It’s manna from heaven!
+You don’t have to devote global variables to being the “parameters” of your subroutines anymore.
+Life is great.
+</p>
+
+<p>
+This is the mindset I think Traister had and never got past.
+In the book there is one fleeting mention of the stack in reference to excessive (automatic) memory allocation.
+(On MS-DOS, if the space for local variables is too large in the program, it might not compile.)
+He consistently describes variables as having “exclusive” addresses in the program.
+His writing about pointers suggests that he thinks, for each function, space is set aside to hold the local variables for the duration of the program, but you can only access them when inside the function in which they were declared.
+So pointers are really powerful because you can provide this address to another function and it can change the value using only a parameter.
+</p>
+
+<p>
+Further evidence for his lack of understanding is that he frequently cites ridiculous space micro-optimizations within functions, such as avoiding the use of integers for index variables, if possible.
+Another one, mentioned often, is local <code>char</code> arrays that have a fixed size.
+There are good reasons to not use them but his are not among them.
+His admonishment is that they waste space.
+Technically, that is true, but they don't exist until they're on the stack.
+And he never talks about global or file variables.
+He only refers to locals with “exclusive” addresses “set aside” for variables.
+</p>
+
+<p>
+This interpretation runs into some problems once you start asking how functions with malloc will work, but it's worth pointing out that there is almost no discussion about memory management.
+In a book devoted to C pointers, that's a toxic mix of gross negligence and incompetence.
+There is literally one short paragraph devoted to talking about the <code>free</code> function&#x2014;and it's characterized as a “side note.”
+</p>
+
+<p>
+Another sticking point in this interpretation is Traister’s incomprehensible approach to writing functions that take a variable number of arguments.
+He does this by passing an arbitrary number of arguments to a function (the first being the number of arguments) and accessing them using offsets from the address of the first argument.
+This suggests he has some idea about parameters being passed in a dynamic fashion, but it is so spectacularly wrong<sup><a id="fnr.3" class="footref" href="#fn.3">3</a></sup> you’re left wondering if he even tried his programs out before publishing them.
+</p>
+
+<p>
+Honestly, this is the most generous interpretation of the text I could come up with, and it still paints a terrible picture.
+Occam's Razor suggests that Traister is just clueless.
+But like <a href="https://www.youtube.com/watch?v=01l1WIC9mBo">analyzing a terrible movie</a> that somehow gets made, it's more fun to reason through the “behind the scenes” parts.
+</p>
+
+<p>
+Given the ineptness of the book, you'd think it was self-published.
+You would be wrong.
+It was published through Academic Press, which was a division of Harcourt, Brace &amp; World at the time, but is now an “imprint of Elsevier.”
+</p>
+
+<p>
+In the preface of the second edition it says that the first edition was reviewed “by a professional C programmer hired by the publisher.”
+That programmer said it should not be published.
+That programmer was right, but the publisher went ahead and published it anyway.
+</p>
+
+<p>
+Since there was a second edition, the assumption is that the book sold well.
+According to WorldCat, <i>Mastering C Pointers</i> is in at least <a href="https://www.worldcat.org/title/mastering-c-pointers/oclc/898329209&amp;referer=brief_results">242 libraries</a>, most appearing to be the first edition, but I didn’t check them all.<sup><a id="fnr.4" class="footref" href="#fn.4">4</a></sup>
+It claims to be one of the first books to tackle the subject of pointers in C, which is often a sticking point for novice programmers.
+The lack of material in this area at the time is probably why it sold.
+I could not track down a review of this book anywhere (and yes, I looked through scans of Byte Magazine et al.), but I did find reviews for other C books in the 1980s and what I found suggested that pointers were not covered well, if at all.
+In other words, like many books&#x2014;and tech books in particular&#x2014;it sold because of its title and good timing.<sup><a id="fnr.5" class="footref" href="#fn.5">5</a></sup>
+</p>
+
+<p>
+If you browse search results for other books by Traister you’ll find a lot of questionable sounding titles: <i>Making money with your microcomputer</i> (1982), <i>Leaping from BASIC to C++</i> (1994), <i>Learn C in Two Weeks with Run/C and CBreeze</i> (1987).
+The breadth of topics covered in his works seems exhausting: <i>Beginner’s Guide to Reading Schematics</i> (1991), <i>Astronomy and Telescopes: A Beginner’s Handbook</i> (1983), <i>Make your own professional home video recordings</i> (1982), <i>Cave Exploring</i> (1983), just to name a few.
+You start to wonder if this is actually the same person who writes all this.
+Then you start to wonder if maybe all these books just touch on the topics, and are churned out mainly to try and make a buck.
+I had a hard time finding a review for any of them (the best resource was <a href="https://archive.org/search.php?query=robert%20j%20traister&amp;sin=TXT">archive.org</a>).
+Practically all I could find about his books was ads for them&#x2014;and even then it wasn’t that much, which is odd given the apparent volume of output from him.
+I did manage to find two reviews for his book <i>Programming in C for the Microcomputer User</i> (1984): one was favourable (80 Micro, Nov. 1984), the other was not (Practical Computing, Oct. 1985).
+The only other book I can find of his that seems to have some staying power is the schematics book, which went to a third edition.<sup><a id="fnr.6" class="footref" href="#fn.6">6</a></sup>
+</p>
+
+<p>
+Ultimately, the aspect of <i>Mastering C Pointers</i> that truly disturbs me is that there are probably a fair number of people who actually learned C pointers from it.
+There’s no way to know how much of an impact this book had on programmers in the 1990s, but given the number of copies in libraries it must have had some.
+It’s hard not to wonder how much of the terrible C code that has made its way into production can be attributed to the awful advice in Traister’s travesty of a text.
+</p>
+
+<ul class="org-ul">
+<li><a href="code.html">Annotated code samples from the book</a></li>
+<li><a href="notes.html">Notes I took</a></li>
+</ul>
+
+<p>
+Thanks to John Regehr for helping me track down the book in the first place.
+The title was <del>stolen</del> inspired by one of his tweets.
+</p>
+
+
+<div class="timestamp">
+<p>
+June 25, 2018
+</p>
+
+</div>
+<div id="footnotes">
+<h2 class="footnotes">Footnotes: </h2>
+<div id="text-footnotes">
+
+<div class="footdef"><sup><a id="fn.1" class="footnum" href="#fnr.1">1</a></sup> <div class="footpara"><p class="footpara">
+His mention of the book comes at 27:44 in the linked talk.  Also, if you watch the talk, be forewarned that an alarm goes off at around the 55 minute mark and it's quite jarring.
+</p></div></div>
+
+<div class="footdef"><sup><a id="fn.2" class="footnum" href="#fnr.2">2</a></sup> <div class="footpara"><p class="footpara">
+This is not strictly true.  You could define a function, but it could only take one argument and had to be defined by an expression that could fit on one line.
+</p></div></div>
+
+<div class="footdef"><sup><a id="fn.3" class="footnum" href="#fnr.3">3</a></sup> <div class="footpara"><p class="footpara">
+Of course, it’s more nuanced than this because you can actually make his code work in some cases.  See the discussion in the code samples for more information.
+</p></div></div>
+
+<div class="footdef"><sup><a id="fn.4" class="footnum" href="#fnr.4">4</a></sup> <div class="footpara"><p class="footpara">
+I tried to get some data on the number of times it had been loaned out by my alma mater’s library system, but was not able to get anything.
+</p></div></div>
+
+<div class="footdef"><sup><a id="fn.5" class="footnum" href="#fnr.5">5</a></sup> <div class="footpara"><p class="footpara">
+This is not meant to say anything particular about the tech publishing industry at the time.  I think the same opportunism that was in effect then is alive and well today, and probably always has been.  Arguably, it’s worse today.
+</p></div></div>
+
+<div class="footdef"><sup><a id="fn.6" class="footnum" href="#fnr.6">6</a></sup> <div class="footpara"><p class="footpara">
+I only know this because of an odd, rambling <a href="https://www.youtube.com/watch?v=7hX1BkWlUso">promotional video</a> for the book where Traister’s name is forgotten by the new author.
+</p></div></div>
+
+
+</div>
+</div>]]>
+</content>
+</entry>
+<entry>
+<author><name>Geoff Wozniak</name></author>
+<title>Book review: The puzzling empathy of debugging</title>
+<updated>2018-05-07T20:00:00-04:00</updated>
+<link rel="alternate" type="text/html" href="https://wozniak.ca/blog/2018/05/07/1/index.html"/>
+<id>https://wozniak.ca/blog/2018/05/07/1/index.html</id>
+<content type="html">
+<![CDATA[<div class="authornote">
+<p>
+This is the fourth in a series of reviews of debugging books.
+</p>
+
+</div>
+
+<ul class="org-ul">
+<li><i>If I Only Changed the Software, Why Is the Phone on Fire?</i> (Lisa Simone, Newnes, 283 pp., 2007)</li>
+<li><i>Find the Bug: A Book of Incorrect Programs</i> (Adam Barr, Pearson Education, 306 pp., 2005)</li>
+</ul>
+
+<p>
+We absorb second-hand experience in different ways, but when it comes to debugging, this is often done through stories and anecdotes.  You probably know them as “gripe sessions.”  If you want to be trendy, call them “retrospectives.”  Regardless, in any meeting of developers, there are always going to be a few tales of woe that break the ice, and possibly even melt it.
+</p>
+
+<p>
+Part of what makes these stories resonate with developers is empathy: we’ve all been there in some form or another.  Be it bizarre user behaviour, ambiguous specifications, developer laziness (not your own, of course&#x2026;), or just a confluence of calamitous circumstances, if you’re a developer, you’ve probably seen glimpses of them all.  They affect your day-to-day work, if not your livelihood, so it matters.
+</p>
+
+<p>
+Such stories also tend to come with a healthy dose of cynicism and exasperation.  Deep down, reasonable people know that there isn't a malicious actor out to make them deal with a horrible bug, but at the same time we all have to vent now and then, and the malicious actor antagonist is the easiest one to invoke (the inherent laziness of devs&#x2014;but not you&#x2014;at work again).  Great debugging stories don’t place blame.  The root cause of the failure is the moral of the story.
+</p>
+
+<p>
+<i>If I Only Changed the Software</i> is full of great debugging stories.  Simone does something unique in the world of debugging books: she adds characters.  There is technical heft to the problems that keeps the logical part of you guessing while at the same time weaving in the stories of the development team, whose members actually develop as characters.  It’s a marvellous bit of writing.
+</p>
+
+<p>
+The stories are described as mysteries, which is accurate because each has a social element.  Simone doesn’t ignore the team aspect of working through a difficult problem, and doesn’t succumb to the temptation of using the malicious actor antagonist.  The technical solutions can be fiendishly subtle, are never superficial, and always engage the reader.  Just the technical aspects of the stories make the book worth recommending.  The fact the book incorporates social context sets it apart.  Such context is realistic and important.  It is the primary way Simone’s writing taps into that empathetic response.  Never before have I read a technical book that captures the sense of working on a team as well as this one.  It’s a poignant reminder that debugging doesn’t have to be a solitary activity and that the effects of actually spending time on it affect others.  You don’t debug in a vacuum.  It’s refreshing to read a book that puts you in a world where customer needs, financial restrictions, logistical barriers, and your teammates actually play a role.
+</p>
+
+<p>
+The thing about mysteries is that they break down into smaller problems as you work your way through them.  At some point you may cross the boundary from problem to puzzle.  It’s a fuzzy border, admittedly, but I’m willing to go out on a limb and say that a puzzle is smaller in scope than a problem.  Puzzles (decent ones, anyway) are self-contained problems, that is, you are given enough information at the outset to solve them.<sup><a id="fnr.1" class="footref" href="#fn.1">1</a></sup>
+</p>
+
+<p>
+Barr’s book is just that: a series of (nearly) self-contained problems.  There are fifty puzzles in total, in groups of ten per programming language: C, Python, Java, Perl, and the somewhat inspired choice of x86 assembly.  Each language comes with a compact primer whose intention is to provide enough information to work through the puzzles, although their usefulness is a bit like being taught matrix multiplication and then saying, “Well, you should be fine for linear algebra.”  Without previous exposure to a language, solving the puzzles in that language is tedious and frustrating.
+</p>
+
+<p>
+The book pushes the reader to practice debugging “on paper,” that is, to find the bug by only studying the code listing as printed in the book.  Before getting to the programs, it lays out some code reading techniques and typical things that often lead to code defects.  As someone who has taught programming courses multiple times and has been programming for a while, I have no quibble with the advice.  It's useful and accurate.  But as I worked through the puzzles following the book’s rules, I wondered what the point to it was.  It is a pedagogical tool?  Entertainment?  In the end, I was uninterested in the content.  Even worse, the whole thing felt like a condescending way to artificially inflate the reader’s ego.
+</p>
+
+<p>
+Consider the notion of debugging only using a specification and a code listing.  This means that you do not get to run the program.  At all.  You do not know the outputs it produces for any input without working it out yourself.  It’s your responsibility to know the precise semantics of every operation and manage the state space of the computation manually.  The thing is, debugging code from just a specification and an implementation is a sucker’s game because it turns you into the computer.  And you are not a great computer.  The result is an artificially inflated probability for error.  It presents a challenge, to be sure, but it’s a situation where a useful lesson is buried in minutiae and you wonder why you’re trying to extract it at all.
+</p>
+
+<p>
+The practice of artificially raising the difficulty level of a coding problem by depriving the developer of useful tools has the deservedly disparaging moniker of “whiteboard coding.”  Whiteboard coding is obnoxious because the stakes are phony.
+</p>
+
+<p>
+There is nothing inherently wrong with debugging on paper. You’re going to have to stare at a code listing eventually.  The problem is that you want to do it with as much information as possible so as to increase your accuracy.  When you normally analyze a code listing for a defect you have some evidence of its existing behaviour: it works when you start with <i>x</i> but not with <i>y</i>, for example.  In other words, you have something tangible to work from.  Furthermore, those tangible inputs probably came from a system that affects you in some way, giving you a reason to care.
+</p>
+
+<p>
+Therein lies one of the key shortcomings of Barr’s book compared to Simone’s: Simone’s puzzles have stakes; Barr’s don’t.  By adding that emotional investment, Simone gives the readers a reason to try and figure out the solution.  Barr provides none of that; it’s just a series of facts.  While the debugging advice in his book is good and the puzzles are challenging, they aren’t <i>fun</i>.  They’re a just collection of whiteboard coding questions.
+</p>
+
+<p>
+Furthermore, <i>Find the Bug</i> does not reflect on the solution.  There aren’t many lessons in the book, which makes for an unsatisfying experience.  Good puzzles are a conduit for instruction.  Once you know the solution, you may try to generalize the technique you used to find the answer, or look for the hints that you didn’t see if you didn’t get it.  If you don’t find the bug in Barr’s book, you won’t get guidance as to why.  The book is working from the position of whiteboard coding, that being a position of knowing something you don’t and waiting for you to catch up (and subtly admonishing you if you fail).
+</p>
+
+<p>
+The reader’s goal, then, becomes not to learn, but to take pride in figuring out the answer.<sup><a id="fnr.2" class="footref" href="#fn.2">2</a></sup>  Once this happens, there isn’t much of anywhere to go except to hang the puzzle over the head of some other poor soul and wait for them to “get it.”  It encourages a pyramid scheme of pretentiousness.
+</p>
+
+<p>
+<i>Find the Bug</i> book isn’t a playful “Try to find out why this doesn’t work!”, but a sterile “Tell me what I know.”  It’s technically correct, but who cares?
+</p>
+
+<div class="timestamp">
+<p>
+May  7, 2018
+</p>
+
+</div>
+<div id="footnotes">
+<h2 class="footnotes">Footnotes: </h2>
+<div id="text-footnotes">
+
+<div class="footdef"><sup><a id="fn.1" class="footnum" href="#fnr.1">1</a></sup> <div class="footpara"><p class="footpara">
+This assumes, of course, the user has some general knowledge of the domain in which the puzzle has been placed.  Crossword puzzles, for example, don’t provide all you need up front: they assume the user has a reasonable vocabulary and a slightly creative way of reading clues.  Granted, many semantic hairs could be split over this, but think of it this way: crosswords don’t make up words (despite what you may think) just to fill out the space.
+</p></div></div>
+
+<div class="footdef"><sup><a id="fn.2" class="footnum" href="#fnr.2">2</a></sup> <div class="footpara"><p class="footpara">
+There are more than a few programs that have more than one bug, so the answer isn't distinguished.  That said, there is only one intended bug per program.  That's the answer you're looking for.
+</p></div></div>
+
+
+</div>
+</div>]]>
+</content>
+</entry>
+<entry>
+<author><name>Geoff Wozniak</name></author>
+<title>Book review: Formalizing debugging</title>
+<updated>2018-03-25T20:00:00-04:00</updated>
+<link rel="alternate" type="text/html" href="https://wozniak.ca/blog/2018/03/25/1/index.html"/>
+<id>https://wozniak.ca/blog/2018/03/25/1/index.html</id>
+<content type="html">
+<![CDATA[<div class="authornote">
+<p>
+This is the third in a series of reviews of debugging books.
+</p>
+
+</div>
+
+<ul class="org-ul">
+<li><i>The Science of Debugging</i> (Matt Telles and Yuan Hsieh, Coriolis,
+495 pp., 2001)</li>
+<li><i>Why Programs Fail: A Guide to Systematic Debugging, 2nd Edition</i>
+(Andreas Zeller, Morgan Kaufmann, 400 pp., 2009)</li>
+</ul>
+
+<p>
+Given all the time and effort collectively spent debugging by the
+software industry, it makes sense to explore the notion of formalizing
+the practice. This involves reflecting on the process and breaking it
+down into its constituent parts. To complicate matters, as a field of
+study debugging is a cross between empirical and formal sciences. The
+artifacts that you deal with (programs) are complicatedly
+deterministic, birthed by social forces and maintained in the
+political realm of human interaction. You can’t debug in a vacuum of
+technological processes.
+</p>
+
+<p>
+The two books I talk about in this review take a stab turning
+debugging into an activity based on evidence and formalism, beyond
+that of “this worked for me.” There is the wonderful <i>Why Programs
+Fail</i> and the woeful <i>Science of Debugging</i>. We’ll start with the
+woeful.
+</p>
+
+<p>
+Studying <i>The Science of Debugging</i> was a slog. For one thing, it’s
+got a lot of text.<sup><a id="fnr.1" class="footref" href="#fn.1">1</a></sup> The physical copy I read was typical textbook
+size with surprisingly small margins. Not only is there a lot of text,
+you’re confronted with walls of it. It was mildly intimidating.
+</p>
+
+<p>
+That’s a superficial nitpick, though. A more substantial problem was
+the editing (if one can call it that). It was a constant
+distraction. First, there were seemingly minor issues that ended up
+being serious distractions, like using the word “low” when “high” was
+intended. Such things make you do a double-take during the act of
+reading, and you start to question if it’s an editing mishap, or if
+you or the authors are misunderstanding something. When it happens
+with the frequency it does in this book, you have to start checking
+other sources to verify what is being said. There was also an
+abundance of meandering sentences. It felt like a first draft for long
+stretches. The more grievous editing mistake, though, was allowing the
+same stories to be repeated ad nauseam. While reading this book I felt
+that I was duped into partaking in a lecture-rant. I lost track of how
+many times it was said that if you add a <code>printf</code> and the bug goes
+away, you haven’t solved anything. For as much as the case of the
+magical <code>printf</code> was mentioned, you would think it to be an
+epidemic. And if you want regular reminders about the race conditions
+and buffer problems of a digital TV system from the 90s, by all means
+subject yourself to this book.
+</p>
+
+<p>
+All of this is forgivable, though. I mention it for selfish reasons:
+it’s hard for me to contain how much I didn’t like <i>The Science of
+Debugging</i>. The core problem is that the book fails to make its case
+of defining debugging as a profession.
+</p>
+
+<p>
+There are good parts to the book (with that many words, you’re bound
+to get something right!). One of those is a survey of some infamous
+bugs. By now you’ve probably heard of most of them &#x2014; Intel Pentium
+FDIV, Ariane 5, Therac-25, Mars Climate Orbiter, AT&amp;T outages &#x2014; and
+they are still good case studies. In fact, the overview occurs at the
+beginning of the book and made me hopeful for the rest. Those hopes
+were dashed once it started to set down something approaching the
+science in the title.
+</p>
+
+<p>
+Discussing the philosophy of science is too much for this review, but
+it’s safe to say that part of science is the act of
+classifying. Taxonomy is a often a contentious practice, but there is
+general agreement that there are similarities among groups of things,
+and it is useful to try to categorize them. Defects and bugs are no
+exception. Diagnosing and correcting a defect becomes easier as you
+gain experience solving them and recognizing similarities can guide an
+investigation.
+</p>
+
+<p>
+Telles and Hsieh examine this idea by discussing bug definitions and
+life cycles, leading to a bug taxonomy. It’s a fundamental aspect of
+the book because it tries to establish a groundwork for a debugging
+profession. A taxonomy would provide it a knowledge base. Finding new
+entries or refining the definitions would be part of the science.
+</p>
+
+<p>
+The taxonomy starts with “classes of bugs”: requirement, design,
+implementation, process, build, deployment, future planning, and
+documentation. It’s a reasonable breakdown given that it roughly
+aligns with the phases of software development. It then immediately
+describes the “bug classes,” making the classic mistake of overloading
+the terminology. It’s confusing to the reader: how are “bug classes”
+different from “classes of bugs”? Muddying the waters is the fact that
+the “bug classes” consist almost entirely of things that occur
+directly in code. That is, they seem to fall into the class of
+implementation bugs, thus completely ignoring the other seven classes.
+</p>
+
+<p>
+It’s a deeply unsatisfying narrative. I give the authors credit for
+ambition but the execution really misses the mark. Worse, the range
+covered by the bug classes varies wildly, and overlaps in confounding
+ways. For example, one class, “Hard-Coded Length/Sizes,” is remarkably
+narrow, whereas another, “Distributed Application Errors,” is wide
+open. There is “Memory or Resource Leaks” and “Allocation/Deallocation
+Errors,” where the latter literally sets itself up as a subset of the
+former. In the description of what constitutes an allocation or
+deallocation error, it says “This is a classic memory leak.” So, is an
+allocation/deallocation error a subclass of memory or resource leaks?
+It sure seems like it, but that relationship is ignored. As mentioned
+earlier, taxonomy is contentious, but the breakdown presented seems
+hastily concocted, bordering on careless.
+</p>
+
+<p>
+When it comes to the idea of debugging as a profession, I will admit I
+was skeptical but willing to listen to the argument. In the end I
+wasn’t convinced, but that doesn’t mean it is a bad argument to put
+forth. What <i>The Science of Debugging</i> presents, though, is not much
+of an argument. I struggled to get at just why their treatise doesn’t
+work, beyond the fact that I have about 17 years of hindsight and
+industry knowledge to draw from since it was published.
+</p>
+
+<p>
+After the taxonomy is laid out, Telles and Hsieh go on at (great)
+length about how to debug, different debugging techniques and
+situations, postmortem analysis, testing, maintenance, and something
+called “prebugging,” which is a term they seem to have coined for
+describing decent design and implementation decisions. Most of the
+discussion is the kind of thing you’d find in any reasonable software
+engineering book of today or even at the time. The organization of it
+may be questionable, but aside from one thing (see below) it’s more of
+the usual advice. Its greatest weakness is the lack of concision. It
+truly hampers the message.<sup><a id="fnr.2" class="footref" href="#fn.2">2</a></sup> The descriptions drag, the stories
+are repetitive, and there is a distinct air of pomposity in the war
+stories.
+</p>
+
+<p>
+At the end of the book they make the case for debugging as a
+profession. After such an exasperating read, I was hoping for some
+redemption and, again, was left wanting. It turns out that the
+profession of debugging, as laid out in the book, is what we know as
+“software development.” The book ends with a “typical day in the life
+of a professional debugger.” To get a flavour, here is the first entry
+in the imagined logbook.
+</p>
+
+<blockquote>
+<p>
+8:00 A.M. I arrive at work, check my email, and look for new problems
+or reports. There are two new bugs reported in my email. One is of
+moderate severity, the other of low severity. I decide to leave them
+for a bit while I read the remainder of my email.
+</p>
+</blockquote>
+
+<p>
+This is followed by similar descriptions of things developers do every
+day: try to reproduce bugs, find possible enhancements, talk to others
+about issues, and attend meetings, complete with details about when
+the debugger does a quick crossword puzzle or gets a glass of water
+(that’s just a <i>taste</i> of the verbosity in the book’s 495 pages).
+</p>
+
+<p>
+Ultimately, I think the book fails because the authors have a twisted
+take on software engineering and development. If that is the life of a
+debugger, what is the life of a developer? Do they only churn out
+code? How can that be a reasonable team dynamic? If developers only
+churn out code, with testing left to testers, design left to
+architects, and debugging left to debuggers, then you get dangerously
+close to the siloed waterfall strawman now used to prop up the egos of
+Agile evangelists. You’d be hard pressed to find someone who seriously
+advocates for this kind of approach, even at the time, yet the book
+seems to be doing just that. Put curtly, it’s bad.
+</p>
+
+<p>
+Two other aspects of <i>The Science of Debugging</i> must be called
+out. First, the bug puzzles. Each chapter ends with a “bug puzzle”
+that describes a situation to be debugged. They don’t illuminate the
+ideas, nor do they add to the discussion. Reading the solutions in the
+appendix, you’re left wondering what the clues in the puzzle actually
+were since the solution is so far removed from the puzzle
+description. They come across as arrogant showmanship.
+</p>
+
+<p>
+This pales in comparison to the blatant provocation put forth when
+talking about defensive programming: asserts are evil. The opening
+paragraph of section “The Evils of Asserts” (p. 380) lays out what can
+only be described as a nuclear take:
+</p>
+
+<blockquote>
+<p>
+When we were surveying books and articles written about debugging and
+bug prevention, one technique that stood out in all of these books and
+articles was the encouragement to use asserts. Frankly, we do not see
+the value of asserts in producing quality software. In fact, we
+believe that usage of asserts is the mark of a lazy programmer as we
+discussed in Chapter 4. We believe that asserts can increase the odds
+of bug formation and introduction, and that usage of asserts should be
+avoided.
+</p>
+</blockquote>
+
+<p>
+Their argument, in a nutshell, is that asserts are removed in
+production builds, and just because the situation doesn’t occur in
+development doesn’t mean it won’t occur in production. The problem is
+that they equate assert usage with error handling. Asserts as error
+handling is a genuinely bad idea, but apparently the authors could
+envision no other usage of asserts, nor had they experienced any other
+approach. Even worse, they double down and claim &#x2014; with no evidence!
+in a science book! &#x2014; that asserts actually produce more bugs. It’s
+actively bad advice derived from anecdotal data.
+</p>
+
+<p>
+<i>The Science of Debugging</i> is the first tech book, let alone debugging
+book, that grated my nerves so much that I can’t recommend it in any
+way. You’ll get the same information elsewhere and it will probably be
+presented better.
+</p>
+
+<p>
+At the complete opposite end of the recommendation spectrum is
+Zeller’s book. It acted as a blissful antidote.
+</p>
+
+<p>
+Comparing <i>Why Programs Fail</i> to <i>The Science of Debugging</i> is an
+unfair exercise. For one thing, Zeller’s book is
+laser-focussed. Zeller addresses a single aspect of formal debugging:
+given a reproduce scenario that can induce a program failure, how can
+you determine the defect(s) that caused the failure? It’s the
+technical essence of debugging and deftly avoids the softer parts of
+the process. Those softer things, such as bug tracking, are not
+ignored, but nor are they explored beyond what is necessary. Telles
+and Hsieh, on the other hand, addressed a much broader scope with
+considerably less formality. It was not my intent to compare books of
+such contrasting quality, but the best laid plans of mice and men
+often go awry.<sup><a id="fnr.3" class="footref" href="#fn.3">3</a></sup>
+</p>
+
+<p>
+What Zeller does in his book is formalize the process of diagnosing
+and fixing defects that good software engineers seem to intuit. He
+dubs it the <i>delta debugging</i> algorithm. It’s one of those algorithms
+that seems obvious after you read it. The presentation and explanation
+is so clear that you’re left wondering how you never thought of it
+yourself by the time you reach the end.
+</p>
+
+<p>
+Although delta debugging makes perfect sense, I often wondered if
+Zeller underappreciates the effort that could be involved in
+automating it. The purpose to his formalization is to automate the
+debugging process as much as possible and includes an implementation
+of delta debugging (it’s not that complicated). However, it’s not one
+of those algorithms you can just download and use. There are a variety
+of environmental factors that come into play in any attempt to use
+it. This does not undermine its value (ignore the algorithm at your
+peril!) but as I read about it and imagined using it in my day-to-day
+work, it did not seem as easy as the text was suggesting. And on the
+other side, there are times where automating is probably
+overkill. These caveats, though, speak to the brilliance of the work:
+the automation is not a necessary component for it to be genuinely
+useful.
+</p>
+
+<p>
+As with any book that is older, the tools used are dated but it does
+not rely on them to get the point across, aside from some of the
+basics. There is also a somewhat distracting practice of using
+all-caps for most program names (you’ll see a lot of “MOZILLA”). Even
+in the tool use, though, Zeller is the consumate academic and informs
+the reader to proceed with caution as the tools may not be available
+anymore. It’s a refereshing change from other books who seem to think
+that URLs are forever.
+</p>
+
+<p>
+Zeller’s book also dedicates a whole chapter to usage of asserts,
+which made for an entertaining contrast to Telles and Hsieh’s absymal
+advice. Zeller’s arguments are convincing as he frames asserts as
+automating observation. More importantly, he outlines where they are
+useful: for checking invariants, pre and post conditions, and as kind
+of specification.<sup><a id="fnr.4" class="footref" href="#fn.4">4</a></sup>
+</p>
+
+<p>
+The latter part of the book is more academic, so those with a
+practical bent may find it less than engaging. Zeller warns the reader
+that the ideas are not fully evaluated &#x2014; a nice touch &#x2014; but that
+should not discourage you from reading it. Although I have not heard
+of any tools that implement the ideas he outlines, it’s important
+stuff.
+</p>
+
+<p>
+<i>Why Programs Fail</i> is a stellar book. It is well organized, clearly
+written, illuminating, and thoughtful. It is worth your time and
+attention, and will be useful for many years to come.
+</p>
+
+<div class="timestamp">
+<p>
+March 25, 2018
+</p>
+
+</div>
+<div id="footnotes">
+<h2 class="footnotes">Footnotes: </h2>
+<div id="text-footnotes">
+
+<div class="footdef"><sup><a id="fn.1" class="footnum" href="#fnr.1">1</a></sup> <div class="footpara"><p class="footpara">
+By a rough estimate, the text contains about 220000 words. I
+picked a page that struck me as a representative page of text and
+counted the words on five random lines. Each one had 14 words. There
+were 39 lines on the page, for a total estimate of 546 words. As a
+rough guess, if you took out code samples and figures, you had about
+400 pages of text for a total of 218400 words.
+</p></div></div>
+
+<div class="footdef"><sup><a id="fn.2" class="footnum" href="#fnr.2">2</a></sup> <div class="footpara"><p class="footpara">
+My wife will attest to this because of all the cursing that I
+weaved into the phrase “Get to the point!”, which was exclaimed many
+times as I read the book.
+</p></div></div>
+
+<div class="footdef"><sup><a id="fn.3" class="footnum" href="#fnr.3">3</a></sup> <div class="footpara"><p class="footpara">
+I do these reviews by trying to pick books that appear to be
+thematically similar. I was hoping to do a more thorough comparison of
+attempts at formalism, but instead got served with polar opposites. It
+meant I had to write a much different review than I planned.
+</p></div></div>
+
+<div class="footdef"><sup><a id="fn.4" class="footnum" href="#fnr.4">4</a></sup> <div class="footpara"><p class="footpara">
+Reading that chapter, my mind wandered into an imaginary world
+where the authors of the two books try to convince me of their
+position through a cooking competition. In one case I get fresh pasta,
+smooth tomato sauce, and homemade bread; the other I get a microwaved
+TV dinner with a cigarette butt in it.
+</p></div></div>
+
+
+</div>
+</div>]]>
+</content>
+</entry>
+</feed>
